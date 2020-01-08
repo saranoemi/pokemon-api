@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon.API", "Pokemon.API\Pokemon.API.csproj", "{F8ECBFA7-FA1E-4CD2-9DFE-8E054ED00F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCF384A3-68CB-4A48-B083-5615E73D123F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon.Test", "Pokemon.Test\Pokemon.Test.csproj", "{0B2BDF2F-A14C-44F9-A2C7-CC2D48EA942B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8ECBFA7-FA1E-4CD2-9DFE-8E054ED00F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8ECBFA7-FA1E-4CD2-9DFE-8E054ED00F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8ECBFA7-FA1E-4CD2-9DFE-8E054ED00F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8ECBFA7-FA1E-4CD2-9DFE-8E054ED00F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2BDF2F-A14C-44F9-A2C7-CC2D48EA942B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2BDF2F-A14C-44F9-A2C7-CC2D48EA942B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2BDF2F-A14C-44F9-A2C7-CC2D48EA942B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2BDF2F-A14C-44F9-A2C7-CC2D48EA942B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FDE9A6B-B8EB-45D4-8646-34614DCAC1BF}
+	EndGlobalSection
+EndGlobal
