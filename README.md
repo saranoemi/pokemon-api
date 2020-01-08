@@ -21,6 +21,16 @@ While the host application is running, you can consume the API calling the endpo
 
 A simple way to play with the API is through the Swagger UI, which allows you to visualize and interact with the API’s resources directly in your browser.
 
+The project contains also a _Dockerfile_ that you can use to build the container image and run it. If you have _Docker_ installed on your machine, you can build the image using the command:
+
+    docker build -t pokemonapi .
+
+Then, you can create a container from the image by using:
+
+    docker run -d -p 8080:80 –-name pokemonapi pokemonapi
+    
+After that, you can browse to the Swagger UI by going to http://localhost:8080/swagger/index.html and test the API.
+
 ### Acknowledgements
 
 The Pokemon descriptions are obtained by querying the Pokéapi API: https://pokeapi.co/.
